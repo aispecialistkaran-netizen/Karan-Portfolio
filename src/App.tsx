@@ -5,6 +5,7 @@ import { ProjectsSection } from './components/ProjectsSection';
 import { SkillsSection } from './components/SkillsSection';
 import { ExperienceSection } from './components/ExperienceSection';
 import { ContactSection } from './components/ContactSection';
+import { LeadCapturePopup } from './components/LeadCapturePopup';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SkillsSection />
       <ExperienceSection />
       <ContactSection />
+      <LeadCapturePopup />
     </div>
   );
 }

@@ -123,7 +123,7 @@ export const AboutSection: React.FC = () => {
                   I DON'T JUST WRITE CODE.
                 </span>
                 <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#F7E7C4] via-[#C99E5D] to-[#543B1A] drop-shadow-[0_8px_25px_rgba(201,158,93,0.3)]">
-                  I BUILD WHAT'S NEXT.
+                  I BUILD WHAT SCALES &amp; CONVERTS.
                 </span>
               </h2>
             </motion.div>
@@ -131,11 +131,45 @@ export const AboutSection: React.FC = () => {
             {/* Concise Bio Paragraph */}
             <motion.p
               variants={fadeUpVariants}
-              className="text-xs sm:text-sm md:text-[14.5px] font-light text-[#B3A497] leading-[1.85] tracking-wide mb-10 max-w-xl"
+              className="text-xs sm:text-sm md:text-[14px] font-light text-[#B3A497] leading-[1.85] tracking-wide mb-8 max-w-xl"
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
-              I'm <span className="text-[#F3DBB3] font-medium">Damisetti Shamya Lohitha</span>, a Full Stack Developer and Data Science student specializing in building scalable web architectures, AI-integrated platforms, and refined digital experiences. With a strong algorithmic foundation and a focus on clean engineering, I turn complex requirements into impactful products.
+              I'm <span className="text-[#F3DBB3] font-medium">Karan Verma</span>, an AI Full Stack Developer, Systems Architect, and Growth Technologist with a Master of Computer Applications (MCA) and 6+ years shipping high-impact software. I partner with founders, businesses, and agency clients to build custom enterprise web applications, high-converting modern websites, and cross-platform iOS &amp; Android mobile apps. By blending deep full-stack engineering with modern generative AI pipelines, automated CRM workflows, and clean cloud infrastructure, I deliver robust digital products that drive real revenue and scale seamlessly.
             </motion.p>
+
+            {/* Client Capabilities Showcase (3 Pillars) */}
+            <motion.div 
+              variants={fadeUpVariants} 
+              className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-8"
+              style={{ fontFamily: "'Montserrat', sans-serif" }}
+            >
+              <div className="p-3 rounded-sm border border-[#8C6D4F]/30 bg-[#14100D]/60 backdrop-blur-sm">
+                <span className="text-[10px] font-mono tracking-widest text-[#D4AF37] uppercase block mb-1">
+                  // 01 WEB APPS
+                </span>
+                <p className="text-[11px] text-[#D5CBC0] leading-snug">
+                  Enterprise SaaS, reactive portals &amp; custom AI tools built with Next.js &amp; Node.
+                </p>
+              </div>
+
+              <div className="p-3 rounded-sm border border-[#8C6D4F]/30 bg-[#14100D]/60 backdrop-blur-sm">
+                <span className="text-[10px] font-mono tracking-widest text-[#D4AF37] uppercase block mb-1">
+                  // 02 WEBSITES
+                </span>
+                <p className="text-[11px] text-[#D5CBC0] leading-snug">
+                  High-converting, ultra-fast corporate websites with 99+ Lighthouse scores.
+                </p>
+              </div>
+
+              <div className="p-3 rounded-sm border border-[#8C6D4F]/30 bg-[#14100D]/60 backdrop-blur-sm">
+                <span className="text-[10px] font-mono tracking-widest text-[#D4AF37] uppercase block mb-1">
+                  // 03 MOBILE APPS
+                </span>
+                <p className="text-[11px] text-[#D5CBC0] leading-snug">
+                  Native iOS &amp; Android apps crafted with React Native &amp; offline AI sync.
+                </p>
+              </div>
+            </motion.div>
 
             {/* Concise 4-Item Achievement Metrics Grid */}
             <motion.div 
@@ -148,10 +182,10 @@ export const AboutSection: React.FC = () => {
                   className="text-3xl sm:text-4xl font-light text-[#F4EBE2] tracking-tight"
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                 >
-                  1200+
+                  6+
                 </span>
                 <span className="text-[10px] font-medium tracking-[0.22em] uppercase text-[#A8988B] mt-0.5">
-                  DSA Solved
+                  Years Building
                 </span>
               </div>
 
@@ -161,10 +195,10 @@ export const AboutSection: React.FC = () => {
                   className="text-3xl sm:text-4xl font-light text-[#D4AF37] tracking-tight"
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                 >
-                  9.07
+                  MCA
                 </span>
                 <span className="text-[10px] font-medium tracking-[0.22em] uppercase text-[#A8988B] mt-0.5">
-                  B.Tech CGPA
+                  Comp Apps (VIPS)
                 </span>
               </div>
 
@@ -174,10 +208,10 @@ export const AboutSection: React.FC = () => {
                   className="text-3xl sm:text-4xl font-light text-[#F4EBE2] tracking-tight"
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                 >
-                  40+
+                  10+
                 </span>
                 <span className="text-[10px] font-medium tracking-[0.22em] uppercase text-[#A8988B] mt-0.5">
-                  Industry-Grade Projects
+                  Live Client Sites
                 </span>
               </div>
 
@@ -187,10 +221,10 @@ export const AboutSection: React.FC = () => {
                   className="text-3xl sm:text-4xl font-light text-[#D4AF37] tracking-tight"
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                 >
-                  Top 100
+                  AI-FIRST
                 </span>
                 <span className="text-[10px] font-medium tracking-[0.22em] uppercase text-[#A8988B] mt-0.5">
-                  Myntra Hackerramp
+                  Systems Architect
                 </span>
               </div>
             </motion.div>
@@ -263,7 +297,7 @@ export const AboutSection: React.FC = () => {
                 {/* Main Portrait */}
                 <img
                   src={aboutImg}
-                  alt="Damisetti Shamya Lohitha"
+                  alt="Karan Verma — AI Full Stack Developer"
                   className="w-full h-full object-cover object-top filter brightness-[0.94] contrast-[1.06] saturate-[1.02] group-hover:brightness-105 group-hover:contrast-[1.12] transition-all duration-700 ease-out"
                 />
 
@@ -285,7 +319,7 @@ export const AboutSection: React.FC = () => {
                     className="text-3xl text-[#F2D8A7] drop-shadow-[0_0_12px_rgba(242,216,167,0.5)] transition-colors duration-300 group-hover:text-white"
                     style={{ fontFamily: "'Herr Von Muellerhoff', cursive" }}
                   >
-                    Lohitha
+                    Karan Verma
                   </span>
                 </div>
               </div>

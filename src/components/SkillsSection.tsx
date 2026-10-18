@@ -4,35 +4,35 @@ import type { Variants } from 'framer-motion';
 
 const bentoCategories = [
   {
-    title: 'FRONTEND ARCHITECTURE',
-    badge: 'CORE PILLAR',
-    items: ['React.js', 'React Native', 'Tailwind CSS', 'Electron.js'],
-    description: 'Specialized in building high-performance client applications, custom component libraries, and immersive desktop/mobile interfaces.',
-    stat: '100% RESPONSIVE',
+    title: 'AI & FULL-STACK WEB APPS',
+    badge: 'CORE EXPERTISE',
+    items: ['Next.js 14/15', 'React.js', 'TypeScript', 'Node.js', 'Express.js', 'FastAPI (Python)', 'Tailwind CSS', 'REST & GraphQL'],
+    description: 'Architecting reactive web applications, enterprise SaaS portals, and custom internal tools. From database modeling to high-converting user interfaces, engineered for performance, security, and fluid user experience.',
+    stat: 'ENTERPRISE SAAS',
     colSpan: 'lg:col-span-7',
   },
   {
-    title: 'DISTRIBUTED BACKEND',
-    badge: 'HIGH CONCURRENCY',
-    items: ['Node.js', 'Express.js', 'Spring Boot', 'Docker', 'Redis'],
-    description: 'Engineered RESTful APIs, JWT role-based access control, caching layers, and multi-tenant SaaS backend isolation.',
-    stat: '< 40ms LATENCY',
+    title: 'IOS & ANDROID MOBILE ENGINEERING',
+    badge: 'CROSS-PLATFORM',
+    items: ['React Native', 'Expo', 'iOS & Android Native', 'Offline SQLite', 'NativeWind', 'Push Notifications', 'Biometrics'],
+    description: 'Crafting production-ready cross-platform mobile apps for App Store & Google Play from a single clean codebase. Native feel, 60 FPS interactions, and offline-first data sync.',
+    stat: 'IOS + ANDROID',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'DATA PLATFORMS',
-    badge: 'PERSISTENCE',
-    items: ['MongoDB Atlas', 'PostgreSQL', 'MySQL'],
-    description: 'Designing resilient relational and document schemas with optimized indexing and transaction isolation.',
-    stat: 'ACID & NOSQL',
+    title: 'GENERATIVE AI & AGENTIC WORKFLOWS',
+    badge: 'AI ARCHITECTURE',
+    items: ['OpenAI API', 'Prompt Engineering', 'LLM Agentic Pipelines', 'NLP Document Extraction', 'Predictive Modeling', 'Python'],
+    description: 'Embedding intelligence into software: generative conversational assistants, automated contract/policy analysis, smart summarization, and predictive lead qualification models.',
+    stat: 'AI-FIRST',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'ALGORITHMS & MACHINE LEARNING',
-    badge: 'INTELLIGENCE',
-    items: ['C++', 'Python', 'Java', 'scikit-learn', 'OpenAI API'],
-    description: '1200+ algorithm problems solved. Applied Random Forest classifiers for real-time risk heatmaps and NLP policy analyzers.',
-    stat: '1200+ SOLVED',
+    title: 'CLOUD INFRASTRUCTURE & AUTOMATION',
+    badge: 'SCALE & RELIABILITY',
+    items: ['PostgreSQL', 'Firebase', 'AWS S3', 'Docker', 'Python Automation', 'Google Apps Script', 'HubSpot / Zoho API'],
+    description: 'Designing resilient cloud persistence, event-driven webhooks, and proprietary business automations that save hundreds of operational hours across marketing, sales, and delivery.',
+    stat: '99.9% UPTIME',
     colSpan: 'lg:col-span-7',
   },
 ];
@@ -87,7 +87,7 @@ export const SkillsSection: React.FC = () => {
             className="text-[11px] font-medium tracking-[0.35em] uppercase text-[#D4AF37]"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
-            03 / TECH MATRIX
+            03 / CAPABILITIES MATRIX
           </span>
           <div className="w-20 h-[1px] bg-gradient-to-r from-[#D4AF37]/80 via-[#8C6D4F]/40 to-transparent" />
         </motion.div>
@@ -105,10 +105,10 @@ export const SkillsSection: React.FC = () => {
             style={{ fontFamily: "'Bebas Neue', sans-serif" }}
           >
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] via-[#D5CBC0] to-[#605448] drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-              ARCHITECTURAL MASTERY.
+              FULL-STACK PRECISION.
             </span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#F7E7C4] via-[#C99E5D] to-[#543B1A] drop-shadow-[0_8px_25px_rgba(201,158,93,0.35)]">
-              PRECISION APPLIED.
+              AI-POWERED ARCHITECTURE.
             </span>
           </h2>
         </motion.div>

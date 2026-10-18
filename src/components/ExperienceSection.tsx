@@ -13,38 +13,45 @@ interface RouteStop {
 const journey: RouteStop[] = [
   {
     id: '01',
-    year: 'MAY - JUN 2026',
-    title: 'FULL STACK & MOBILE INTERN',
-    organization: 'TECHNICAL HUB PVT LTD',
-    description: 'Engineered cross-platform mobile and responsive web applications utilizing React Native and modern full-stack workflows.',
+    year: 'MAY 2024 – PRESENT',
+    title: 'HEAD OF MARKETING & AI AUTOMATION',
+    organization: 'ERICKSON COACHING INTERNATIONAL – INDIA',
+    description: 'Lead a 10+ member cross-functional team across automation, analytics, and growth. Built end-to-end CRM pipeline analytics tracking lead quality and channel conversion. Designed and shipped proprietary Python and Google Apps Script automation for lead routing, WhatsApp integrations, and operational workflows.',
   },
   {
     id: '02',
-    year: '2026 MILESTONE',
-    title: 'TOP 100 NATIONAL TEAM',
-    organization: 'MYNTRA WEFORSHE HACKERRAMP',
-    description: 'Ranked among the Top 100 nationwide teams while maintaining Department Topper status (9.07 CGPA) in Data Science.',
+    year: 'NOV 2023 – MAY 2024',
+    title: 'HEAD OF MARKETING & TECH OPERATIONS',
+    organization: 'IRISH EXPERT',
+    description: 'Directed a multidisciplinary team of developers, analysts, and designers executing integrated web platforms and automated client acquisition systems aligned with measurable performance goals.',
   },
   {
     id: '03',
-    year: 'MAY - JUN 2025',
-    title: 'FULL STACK TRAINEE',
-    organization: 'TECHNICAL HUB PVT LTD',
-    description: 'Trained in modern full-stack architecture, developing and deploying end-to-end interactive responsive web platforms.',
+    year: 'OCT 2020 – MAR 2023',
+    title: 'GROWTH AUTOMATION & DIGITAL MANAGER',
+    organization: 'XMONKS ECOSYSTEM (ERICKSON INDIA)',
+    description: 'Progressed from Executive to Assistant Manager over 2.5 years. Built full-funnel digital pipelines across multi-channel campaigns and designed CRM lead lifecycle and disqualification tracking practices scaled organization-wide.',
   },
   {
     id: '04',
-    year: '2023 - 2027',
-    title: 'B.TECH IN DATA SCIENCE',
-    organization: 'ADITYA COLLEGE OF ENGINEERING',
-    description: 'Specializing in Machine Learning and System Design. Solved 1200+ algorithm challenges across LeetCode, CodeChef, and GeeksforGeeks.',
+    year: '2017 – 2020',
+    title: 'MASTER OF COMPUTER APPLICATIONS (MCA)',
+    organization: 'VIVEKANANDA INSTITUTE OF PROFESSIONAL STUDIES (VIPS)',
+    description: 'Master of Computer Applications in Computer Programming & Applications. Specialized in Advanced Software Engineering, Distributed Cloud Systems, Database Architectures, and Object-Oriented Design.',
   },
   {
     id: '05',
-    year: '2021 - 2023',
-    title: 'HIGHER SECONDARY (MPC)',
-    organization: 'SRI CHAITANYA JUNIOR COLLEGE',
-    description: 'Completed specialized coursework in Mathematics, Physics, and Chemistry with 90.60% aggregate excellence.',
+    year: '2016 – 2019',
+    title: 'FREELANCE FULL STACK WEB DEVELOPER',
+    organization: 'SELF-EMPLOYED / CLIENT SOLUTIONS',
+    description: 'Delivered bespoke web applications and high-converting responsive websites for business clients; established the robust full-stack and Python-driven automation foundation underpinning current production architectures.',
+  },
+  {
+    id: '06',
+    year: '2014 – 2017',
+    title: 'BACHELOR OF COMPUTER APPLICATIONS (BCA)',
+    organization: 'JAGANNATH INTERNATIONAL MANAGEMENT SCHOOL (JIMS)',
+    description: 'Graduated in Computer Science, building core expertise in Data Structures, Algorithms, Relational Database Systems, and Web Application Development.',
   },
 ];
 
@@ -81,7 +88,7 @@ export const ExperienceSection: React.FC = () => {
             className="text-[11px] font-medium tracking-[0.35em] uppercase text-[#D4AF37]"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
-            04 / EXPERIENCE
+            04 / CAREER &amp; EDUCATION
           </span>
           <div className="w-20 h-[1px] bg-gradient-to-r from-[#D4AF37]/80 via-[#8C6D4F]/40 to-transparent" />
         </motion.div>
@@ -102,7 +109,7 @@ export const ExperienceSection: React.FC = () => {
               EXPERIENCE &amp;
             </span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#F7E7C4] via-[#C99E5D] to-[#543B1A] drop-shadow-[0_8px_25px_rgba(201,158,93,0.35)]">
-              MILESTONES.
+              PROVEN TRACK RECORD.
             </span>
           </h2>
         </motion.div>
@@ -111,12 +118,12 @@ export const ExperienceSection: React.FC = () => {
         <div className="relative w-full">
           
           {/* Background Track */}
-          <div className="absolute left-[19px] md:left-[140px] top-4 bottom-8 w-[1px] bg-[#8C6D4F]/20" />
+          <div className="absolute left-[19px] md:left-[160px] top-4 bottom-8 w-[1px] bg-[#8C6D4F]/20" />
           
           {/* Animated Gold Track */}
           <motion.div
             style={{ height: lineHeight }}
-            className="absolute left-[19px] md:left-[140px] top-4 w-[2px] bg-gradient-to-b from-[#D4AF37] via-[#C99E5D] to-[#8C6D4F]/10 shadow-[0_0_10px_#D4AF37] origin-top"
+            className="absolute left-[19px] md:left-[160px] top-4 w-[2px] bg-gradient-to-b from-[#D4AF37] via-[#C99E5D] to-[#8C6D4F]/10 shadow-[0_0_10px_#D4AF37] origin-top"
           />
 
           <div className="space-y-12">
@@ -130,14 +137,14 @@ export const ExperienceSection: React.FC = () => {
                 className="relative flex flex-col md:flex-row items-start group"
               >
                 {/* Desktop Year (Left side of track) */}
-                <div className="hidden md:block w-[140px] shrink-0 pr-8 pt-0.5 text-right">
-                  <span className="text-[10px] font-mono tracking-[0.2em] text-[#8C6D4F] group-hover:text-[#D4AF37] transition-colors">
+                <div className="hidden md:block w-[160px] shrink-0 pr-8 pt-0.5 text-right">
+                  <span className="text-[10px] font-mono tracking-[0.18em] text-[#8C6D4F] group-hover:text-[#D4AF37] transition-colors">
                     {stop.year}
                   </span>
                 </div>
 
                 {/* Route Node */}
-                <div className="absolute left-[19px] md:left-[140px] top-1.5 -translate-x-1/2 flex items-center justify-center">
+                <div className="absolute left-[19px] md:left-[160px] top-1.5 -translate-x-1/2 flex items-center justify-center">
                   <div className="absolute w-6 h-6 rounded-full border border-[#D4AF37]/0 group-hover:border-[#D4AF37]/40 group-hover:scale-150 transition-all duration-700 ease-out" />
                   <div className="w-2.5 h-2.5 rounded-full bg-[#120F0C] border border-[#8C6D4F] group-hover:bg-[#D4AF37] group-hover:border-[#D4AF37] group-hover:shadow-[0_0_12px_#D4AF37] transition-colors duration-300" />
                 </div>
@@ -152,7 +159,7 @@ export const ExperienceSection: React.FC = () => {
                   </div>
 
                   <h3
-                    className="text-3xl sm:text-4xl tracking-wide text-white group-hover:text-[#F7E7C4] transition-colors mb-1 leading-none"
+                    className="text-3xl sm:text-4xl tracking-wide text-white group-hover:text-[#F7E7C4] transition-colors mb-1 leading-none uppercase"
                     style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                   >
                     {stop.title}
@@ -166,7 +173,7 @@ export const ExperienceSection: React.FC = () => {
                   </span>
                   
                   <p 
-                    className="text-xs sm:text-[13px] font-light text-[#A8988B] leading-[1.7] max-w-lg group-hover:text-[#D5CBC0] transition-colors"
+                    className="text-xs sm:text-[13px] font-light text-[#A8988B] leading-[1.7] max-w-xl group-hover:text-[#D5CBC0] transition-colors"
                     style={{ fontFamily: "'Montserrat', sans-serif" }}
                   >
                     {stop.description}
